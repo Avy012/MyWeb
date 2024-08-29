@@ -1,29 +1,96 @@
 body { background : aliceblue;}
 
+#navbarContainer{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.webName{
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:darkseagreen;
+}
+.links{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+
+li{
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    color:darkgreen;
+    text-decoration: none;
+  }
+
+li a:hover {
+    text-decoration: underline;
+}
+.active {
+    background-color: bisque;
+  }
+  
 div{
     text-align: center;
 }
 
 .title{
     text-align: center;
+    
 }
-.box{
-    height: 400px;    
-}
+
 img{
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 300px;
+    border: 12px solid beige;
+}
+
+#name{
+    text-align: left;
+    font-size: 20px;
+    color: white;
 }
 
 #flex-container {
     display: flex;
     gap: 20px;
+    background-color: grey;
+    padding: 20px;
     justify-content: center;
   }
 #infoTitle{
     text-align: left;
+    font-size: 25px;
+    color: white;
 }
 #briefInfo{
     text-align: left;
+    color: white;
+}
+.Info{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+#jobTitle{
+    text-align: left;   
+    padding-left: 40px;
+}
+mark{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
 }
   
