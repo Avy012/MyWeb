@@ -39,26 +39,29 @@ li a:hover {
 .active {
     background-color: bisque;
   }
-  
+
 h3{
     text-align: center;
 }
 
-.projects{
+#images{
     display: grid;
     grid-template-columns: auto auto ;
     column-gap: 30px;
     justify-content: center;
-    margin: 10px;
-    gap: 30px;
+    padding: 50px;
+    padding-bottom: 10px;
 }
 
-.bold{
-    text-align: left;
-    font-weight: bolder;
+img{
+    height: 200px;
+    width: auto;
 }
 
-.warning{
-    font-size: 13px;
-    
+
+
+#email{
+    text-align: center;
+    font-weight: bold;
 }
+

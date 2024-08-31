@@ -39,26 +39,20 @@ li a:hover {
 .active {
     background-color: bisque;
   }
-  
+
 h3{
     text-align: center;
 }
 
-.projects{
+div{
+    text-align: center;
+}
+
+.video{
     display: grid;
     grid-template-columns: auto auto ;
-    column-gap: 30px;
+    column-gap: 10px;
     justify-content: center;
     margin: 10px;
-    gap: 30px;
-}
-
-.bold{
-    text-align: left;
-    font-weight: bolder;
-}
-
-.warning{
-    font-size: 13px;
-    
+    padding: 20px;
 }
